@@ -21,7 +21,15 @@
 
 <p>多多，</p>
 
-<p>Hello~扭一扭~</p>
+<p id="ask"><storng>你想我吗？</strong></p>
+
+<p>
+<button type="button" oneclick="miss()"想，么么哒~</button>
+</p>
+
+<p>
+<button type="button" oneclick="no()"人家才不想你~</button>
+</p>
 
 <p>呆呆</p>
 
@@ -31,6 +39,20 @@
 
     </section>
 
+
+<script>
+  function miss()
+  {
+    document.getElementById("ask").innerHTML="乖~扭一扭~~"
+    
+  }
+  
+  function no()
+  {
+    alert('点错了啊，好吧，重新选择');
+  }
+  
+</script>
   
   </body>
 </html>
